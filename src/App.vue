@@ -1,6 +1,16 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="assets/img/logo.png">
+  <div id="intro">
+    <div id="intro-background"></div>
+    <div class="text-center z-10">
+      <div id="intro-img" class="opacity-0"></div>
+      <div>
+        <p class="text-center text-6xl pt-24 font-bold" id="intro-text">Mišo a Nika</p>
+      </div>
+      <svg class="animate-bounce w-6 h-6">
+        <font-awesome-icon icon="fas fa-arrow-down" />
+      </svg>
+    </div>
+
   </div>
 </template>
 
@@ -11,9 +21,91 @@ export default {
   name: 'App',
   components: {
 
+  },
+  data: () => ({
+  }),
+  mounted() {
+    this.animateIntro();
+  },
+  methods: {
+    animateIntro() {
+      setTimeout(function () {
+        document.getElementById("intro-img").classList.remove("opacity-0")
+      }, 100);
+
+      const name = document.getElementById("intro-text");
+      const nameArray = name.innerText.split("");
+      let char = 0
+      name.textContent = "";
+
+      nameArray.forEach(w => {
+        if (w !== " ") { name.innerHTML += "<span class='intro-span'>" + w + "</span>"; }
+        else {
+          name.innerHTML += "<span>" + w + "</span>";
+        }
+      })
+
+      const nameSpans = document.getElementsByClassName("intro-span");
+      let timer = setInterval(function () {
+        if (nameSpans[char].innerText === "") {
+          nameSpans[char].classList.add("whitespace")
+        } else {
+          nameSpans[char].classList.add("intro-text-fade")
+        }
+        char ++;
+
+        if (char === nameSpans.length) {
+          clearInterval(timer);
+          timer = null;
+        }
+      }, 50)
+    }
   }
 }
 </script>
 
 <style>
+#intro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro-background {
+  background-image: url("./assets/img/intro-bg.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  filter: brightness(0.5);
+}
+#intro-img{
+  background-image: url("./assets/img/crocodile.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  transition: all 1s;
+}
+
+#intro-text{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+.intro-span {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(20px);
+  color: white;
+  display: inline-block;
+}
+.intro-text-fade {
+  opacity: 1;
+  transform: translateY(0);
+}
+.whitespace {
+  @apply pr-3;
+}
 </style>
