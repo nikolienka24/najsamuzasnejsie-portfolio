@@ -1,0 +1,50 @@
+.btn {
+  @apply rounded-md;
+  @apply py-2 px-4;
+  @apply font-semibold;
+}
+
+.btn-hyperbola {
+  background-color: #4ec4e7;
+  color: white;
+  transition: all 0.1s;
+}
+
+.btn-hyperbola:hover{
+  background-color: rgb(115, 211, 241);
+}
+
+.btn-kmba {
+  @apply bg-blue-900;
+  color: white;
+  transition: all 0.1s;
+}
+
+.btn-kmba:hover{
+  background-color: #335092;
+}
+
+.btn-taskmate {
+  @apply bg-red-600;
+  color: white;
+  transition: all 0.1s;
+}
+
+.btn-taskmate:hover{
+  background-color: #cb3e3e;
+}
+
+/*badges*/
+
+.badge{
+  @apply py-1.5 px-4 mr-2;
+  @apply rounded;
+  @apply text-xs;
+  @apply bg-gray-200;
+  @apply text-gray-800;
+}
+
+.badge.badge-red{
+  @apply bg-red-600;
+  @apply text-white;
+}
