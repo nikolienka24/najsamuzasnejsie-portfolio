@@ -6,9 +6,6 @@
       <div>
         <p class="text-center text-6xl pt-24 font-bold" id="intro-text">Mišo a Nika</p>
       </div>
-      <svg class="animate-bounce w-6 h-6">
-        <font-awesome-icon icon="fas fa-arrow-down" />
-      </svg>
     </div>
 
   </div>
@@ -20,7 +17,6 @@ import '@/assets/css/tailwind.css'
 export default {
   name: 'App',
   components: {
-
   },
   data: () => ({
   }),
