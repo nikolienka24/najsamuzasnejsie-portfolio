@@ -4,7 +4,7 @@
 
     <ProjectComponent
         title="Hyperbola"
-        description="Hyperbola je moderný edukačný portál pre mládež, ktorá motivuje študentov k rozvíjaniu svojich
+        description="Hyperbola je moderný edukačný portál pre mládež, ktorý motivuje študentov k rozvíjaniu svojich
         vedomostí vo voľnom čase. Hyperbolu spravujeme my dvaja a na súťaži Junior Internet 2021 vyhrala 1. miesto v
         kategorií JuniorLEARN."
         visit="Navštíviť Hyperbolu"
