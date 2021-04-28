@@ -10,22 +10,25 @@
       </div>
     </div>
     <div class="sipocka-wrapper">
-      <div class="sipocka">
+      <a class="sipocka" href="#projects">
         <fontawesome icon="arrow-down"/>
-      </div>
+      </a>
     </div>
-    <Projects/>
+    <Projects id="projects"/>
+    <technologies id="technlogoies"/>
   </div>
 </template>
 
 <script>
 import '@/assets/css/tailwind.css'
 import Projects from "./components/Projects";
+import Technologies from "@/components/Technologies";
 
 
 export default {
   name: 'App',
   components: {
+    Technologies,
     Projects
   },
   data: () => ({

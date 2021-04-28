@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title{
+  @apply text-4xl text-center mb-14 font-semibold;
+}
+
 .btn {
   @apply rounded-md;
   @apply py-2 px-4;
