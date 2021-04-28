@@ -11,7 +11,7 @@
         S láskou vyvorili Michal Barnáš a Nikol Poláková
       </p>
       <p class="text-sm">
-        <a href="https://github.com/nikolienka24/najsamuzasnejsie-portfolio">Zdrojový kód tejto stránky nájdete na GitHube</a>.
+        <a href="https://github.com/nikolienka24/najsamuzasnejsie-portfolio">Zdrojový kód tejto stránky nájdete na GitHube</a>
       </p>
     </div>
 
