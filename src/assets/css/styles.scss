@@ -44,6 +44,16 @@
   background-color: #d9b1ef;
 }
 
+.btn-hostnow {
+  background-color: #007bff;
+  color: white;
+  transition: all 0.1s;
+}
+
+.btn-hostnow:hover{
+  background-color: #2591ff;
+}
+
 /*badges*/
 
 .badge{

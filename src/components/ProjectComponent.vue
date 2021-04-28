@@ -85,4 +85,9 @@ export default {
   height: 100%;
   width: auto;
 }
+
+.project .logo-hostnow-div {
+  background: rgb(0,97,237);
+  background: linear-gradient(18deg, rgba(0,97,237,0.5) 0%, rgba(124,158,255,0.3) 100%);
+}
 </style>
