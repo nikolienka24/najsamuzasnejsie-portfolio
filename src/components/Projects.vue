@@ -46,6 +46,17 @@
         :icons="[['fab', 'bootstrap']]">
     </ProjectComponent>
 
+    <ProjectComponent
+        title="Hostnow"
+        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        visit="Navštíviť Hostnow"
+        btnclass="btn-hostnow"
+        gradient="logo-hostnow-div"
+        logo="../assets/img/hostnow.png"
+        :badges="[]"
+        :icons="[['fab', 'bootstrap'], ['fab', 'laravel']]">
+    </ProjectComponent>
+
   </div>
 </template>
 
