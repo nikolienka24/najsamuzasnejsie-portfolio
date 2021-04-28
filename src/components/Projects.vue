@@ -43,6 +43,9 @@
           <p class="project-title">Komisia pre mládež Bratislavskej arcidiecézy</p>
           <span class="badge">Badge</span>
           <span class="badge badge-red">Badge</span>
+          <span class="badge badge-green">Badge</span>
+          <span class="badge badge-blue">Badge</span>
+          <span class="badge badge-yellow">Badge</span>
           <p class="project-description">
             Description lorem ipsum dolor sit amet a quick
             brown fox jumps over the lazy dog
