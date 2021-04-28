@@ -4,6 +4,10 @@
   @apply font-semibold;
 }
 
+.btn:hover{
+  cursor: pointer;
+}
+
 .btn-hyperbola {
   background-color: #4ec4e7;
   color: white;
