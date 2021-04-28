@@ -42,47 +42,19 @@
         gradient="logo-kmba-div"
         logo="../assets/img/kmba.png"
         :badges="[['Caaau', '']]"
-        :icons="[['fab', 'wordpress-simple']]">
+        :icons="[['fab', 'wordpress-simple'], ['fab', 'php']]">
     </ProjectComponent>
 
-    <div class="project-wrapper rounded-lg">
-      <div class="project grid grid-cols-3 shadow-xl rounded-lg">
-        <div class="col-span-1 project-logo logo-kmba-div rounded-l-lg">
-          <img src="../assets/img/kmba.png" alt="Logo" class="logo">
-        </div>
-        <div class="col-span-2 bg-white text-left p-5 rounded-lg">
-          <p class="project-title">Komisia pre mládež Bratislavskej arcidiecézy</p>
-          <span class="badge">Badge</span>
-          <span class="badge badge-red">Badge</span>
-          <span class="badge badge-green">Badge</span>
-          <span class="badge badge-blue">Badge</span>
-          <span class="badge badge-yellow">Badge</span>
-          <p class="project-description">
-            Description lorem ipsum dolor sit amet a quick
-            brown fox jumps over the lazy dog
-          </p>
-          <div class="opacity-50 pb-5 text-3xl">
-            <fontawesome :icon="['fab','php']" class="project-icon"/>
-            <fontawesome :icon="['fab','wordpress-simple']" class="project-icon"/>
-          </div>
-          <button class="btn btn-kmba">Navštíviť KMBA</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-wrapper rounded-lg">
-      <div class="project grid grid-cols-3 shadow-xl rounded-lg">
-        <div class="col-span-1 rounded-l-lg logo-fotka"></div>
-        <div class="col-span-2 bg-white text-left p-5 rounded-lg">
-          <p class="project-title">Cakes with love</p>
-          <p class="project-description">
-            Description lorem ipsum dolor sit amet a quick
-            brown fox jumps over the lazy dog
-          </p>
-          <button class="btn btn-torty">Navštíviť Cakes with love</button>
-        </div>
-      </div>
-    </div>
+    <ProjectComponent
+        title="Cakes with love"
+        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        visit="Navštíviť Cakes with love"
+        btnclass="btn-torty"
+        gradient="logo-fotka"
+        logo=""
+        :badges="[]"
+        :icons="[['fab', 'laravel']]">
+    </ProjectComponent>
 
   </div>
 </template>
