@@ -1,8 +1,8 @@
 <template>
   <div class="project-wrapper rounded-lg">
-    <div class="project grid grid-cols-3 shadow-xl rounded-lg">
+    <div class="project grid grid-cols-3 shadow hover:shadow-lg rounded-lg">
       <div :class="'col-span-3 md:col-span-1 project-logo rounded-t-lg md:rounded-none md:rounded-l-lg ' + gradient">
-        <img v-if="logo !== ''" :src="require(`@/assets/img/${logo}`)" alt="Logo" class="logo">
+        <img v-if="logo !== ''" :src="require(`@/assets/img/${logo}`)" alt="Logo" class="logo" draggable="false">
       </div>
       <div class="col-span-3 md:col-span-2 bg-white text-left p-5 rounded-lg">
         <p class="project-title">{{ title }}</p>
@@ -47,6 +47,7 @@ export default {
 
 .project {
   max-width: 50em;
+  transition: all 0.1s;
 }
 
 .project-title {

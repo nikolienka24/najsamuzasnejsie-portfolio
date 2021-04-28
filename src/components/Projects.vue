@@ -16,7 +16,8 @@
 
     <ProjectComponent
         title="TaskMate"
-        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        description="TaskMate je moderný správca úloh pre vás a vaše skupiny. Je optimalizovaný tak, aby ste mohli
+ľahko a jednoducho zadávať úlohy všetkým vašim spolupracovníkom a tak plnili ich zoznam úloh."
         visit="Navštíviť TaskMate"
         btnclass="btn-taskmate"
         link="https://taskmate.eu/"
@@ -28,7 +29,7 @@
 
     <ProjectComponent
         title="Komisia pre mládež Bratislavskej arcidiecézy"
-        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        description=""
         btnclass="btn-kmba"
         gradient="logo-kmba-div"
         logo="kmba.png"
@@ -52,7 +53,8 @@
 
     <ProjectComponent
         title="HostNow"
-        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        description="HostNow je moderný webhosting, ktorý ponúka svoje služby celkom zadarmo. Cieľom HostNow je byť voľbou číslo 1
+pre všetkých web developerov, ktorí hľadajú platformu na testovanie svojich malých projektov, avšak tiež aj pre už zabehnuté portály."
         visit="Navštíviť HostNow"
         btnclass="btn-hostnow"
         gradient="logo-hostnow-div"
