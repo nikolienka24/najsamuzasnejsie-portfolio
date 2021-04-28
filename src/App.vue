@@ -16,6 +16,8 @@
     </div>
     <Projects id="projects"/>
     <technologies id="technlogoies"/>
+    <contact id="contact"/>
+    <Footer/>
   </div>
 </template>
 
@@ -23,13 +25,16 @@
 import '@/assets/css/tailwind.css'
 import Projects from "./components/Projects";
 import Technologies from "@/components/Technologies";
-
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
   components: {
     Technologies,
-    Projects
+    Projects,
+    Contact,
+    Footer
   },
   data: () => ({
   }),
