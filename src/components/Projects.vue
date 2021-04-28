@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-28 text-center">
+  <div class="container mx-auto py-20 text-center">
     <p class="title">Naše projekty</p>
 
     <ProjectComponent
@@ -12,7 +12,7 @@
         btnclass="btn-hyperbola"
         gradient="logo-hyperbola-div"
         logo="hyperbola.png"
-        :badges="[['Aktívne', 'badge-blue'], ['2021', 'badge'], ['Ocenené', 'badge-red']]"
+        :badges="[['Aktívne', 'badge-blue'], ['Ocenené', 'badge-red'], ['2021', 'badge']]"
         :icons="[['fab', 'vuejs'], ['fab', 'laravel'], ['fab', 'bootstrap']]">
     </ProjectComponent>
 
@@ -65,7 +65,7 @@
         btnclass="btn-hostnow"
         gradient="logo-hostnow-div"
         logo="hostnow.png"
-        :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge'], ['Ocenené', 'badge-red']]"
+        :badges="[['Aktívne', 'badge-blue'], ['Ocenené', 'badge-red'], ['2020', 'badge']]"
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel'], ['fab', 'js'], ['fab', 'java']]"
         :images="[]"
         link="https://hostnow.cz/">
@@ -89,9 +89,5 @@ export default {
   justify-content: center;
   align-items: center;
   @apply p-2 py-5;
-}
-
-.title{
-  @apply text-4xl text-center mb-14 font-semibold;
 }
 </style>
