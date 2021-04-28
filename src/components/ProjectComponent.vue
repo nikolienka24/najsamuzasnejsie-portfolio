@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .project-icon {
-  @apply ml-3;
+  @apply mr-3;
 }
 
 .project {
