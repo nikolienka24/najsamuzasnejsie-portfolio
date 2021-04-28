@@ -51,10 +51,23 @@
             brown fox jumps over the lazy dog
           </p>
           <div class="opacity-50 pb-5 text-xl">
-
             <fontawesome :icon="['fab','wordpress-simple']"/>
           </div>
           <button class="btn btn-kmba">Navštíviť KMBA</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-wrapper rounded-lg">
+      <div class="project grid grid-cols-3 shadow-xl rounded-lg">
+        <div class="col-span-1 rounded-l-lg logo-fotka"></div>
+        <div class="col-span-2 bg-white text-left p-5 rounded-lg">
+          <p class="project-title">Cakes with love</p>
+          <p class="project-description">
+            Description lorem ipsum dolor sit amet a quick
+            brown fox jumps over the lazy dog
+          </p>
+          <button class="btn btn-torty">Navštíviť Cakes with love</button>
         </div>
       </div>
     </div>
@@ -119,4 +132,10 @@ export default {
   background: linear-gradient(315deg, rgba(255,0,0,0.3) 0%, rgba(122,6,6,0.1) 100%);
 }
 
+.logo-fotka{
+  background-image: url("../assets/img/torta.jpg");
+  background-size: cover;
+  height: 100%;
+  width: auto;
+}
 </style>
