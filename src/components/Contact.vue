@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .description {
-  @apply text-xl mb-12;
+  @apply text-xl mb-5;
 }
 .title {
   @apply mb-5;
