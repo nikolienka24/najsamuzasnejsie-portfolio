@@ -34,6 +34,17 @@
       </div>
     </div>
 
+    <ProjectComponent
+        title="Komisia pre mládež Bratislavskej arcidiecézy"
+        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        visit="Navštíviť KMBA"
+        btnclass="btn-kmba"
+        gradient="logo-kmba-div"
+        logo="../assets/img/kmba.png"
+        :badges="[['Caaau', '']]"
+        :icons="[['fab', 'wordpress-simple']]">
+    </ProjectComponent>
+
     <div class="project-wrapper rounded-lg">
       <div class="project grid grid-cols-3 shadow-xl rounded-lg">
         <div class="col-span-1 project-logo logo-kmba-div rounded-l-lg">
@@ -50,8 +61,9 @@
             Description lorem ipsum dolor sit amet a quick
             brown fox jumps over the lazy dog
           </p>
-          <div class="opacity-50 pb-5 text-xl">
-            <fontawesome :icon="['fab','wordpress-simple']"/>
+          <div class="opacity-50 pb-5 text-3xl">
+            <fontawesome :icon="['fab','php']" class="project-icon"/>
+            <fontawesome :icon="['fab','wordpress-simple']" class="project-icon"/>
           </div>
           <button class="btn btn-kmba">Navštíviť KMBA</button>
         </div>
@@ -76,16 +88,14 @@
 </template>
 
 <script>
+import ProjectComponent from "@/components/ProjectComponent";
 export default {
-  name: "Projects"
+  name: "Projects",
+  components: {ProjectComponent}
 }
 </script>
 
 <style scoped>
-.project {
-  max-width: 50em;
-}
-
 .project-wrapper {
   width: 100%;
   display: flex;
@@ -96,46 +106,5 @@ export default {
 
 .title{
   @apply text-4xl text-center mb-14 font-semibold;
-}
-
-.project-title{
-  @apply mb-3 text-2xl font-semibold;
-}
-
-.project-description {
-    @apply text-base my-3;
-}
-
-.project .logo {
-  @apply h-auto w-40;
-  @apply p-3;
-}
-
-.project-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.project .logo-hyperbola-div{
-  background: rgb(94,111,255);
-  background: linear-gradient(18deg, rgba(94,111,255,0.2) 0%, rgba(78,196,231,0.2) 100%);
-}
-
-.project .logo-kmba-div{
-  background: rgb(61,91,180);
-  background: linear-gradient(135deg, rgba(61,91,180,0.3) 0%, rgba(93,129,210,0.1) 100%);
-}
-
-.project .logo-taskmate-div{
-  background: rgb(255,0,0);
-  background: linear-gradient(315deg, rgba(255,0,0,0.3) 0%, rgba(122,6,6,0.1) 100%);
-}
-
-.logo-fotka{
-  background-image: url("../assets/img/torta.jpg");
-  background-size: cover;
-  height: 100%;
-  width: auto;
 }
 </style>
