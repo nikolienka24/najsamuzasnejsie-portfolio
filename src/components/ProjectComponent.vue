@@ -46,7 +46,7 @@ export default {
 }
 
 .project {
-  max-width: 50em;
+  width: 50em;
   transition: all 0.1s;
 }
 

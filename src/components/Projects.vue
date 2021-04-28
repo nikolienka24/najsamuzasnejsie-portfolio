@@ -4,20 +4,22 @@
 
     <ProjectComponent
         title="Hyperbola"
-        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        description="Hyperbola je moderný edukačný portál pre mládež, ktorá motivuje študentov k rozvíjaniu svojich
+        vedomostí vo voľnom čase. Hyperbolu spravujeme my dvaja a na súťaži Junior Internet 2021 vyhrala 1. miesto v
+        kategorií JuniorLEARN."
         visit="Navštíviť Hyperbolu"
         link="https://hyperbola.sk/"
         btnclass="btn-hyperbola"
         gradient="logo-hyperbola-div"
         logo="hyperbola.png"
-        :badges="[['Aktívne', 'badge-blue'], ['2021', 'badge']]"
+        :badges="[['Aktívne', 'badge-blue'], ['2021', 'badge'], ['Ocenené', 'badge-red']]"
         :icons="[['fab', 'vuejs'], ['fab', 'laravel'], ['fab', 'bootstrap']]">
     </ProjectComponent>
 
     <ProjectComponent
         title="TaskMate"
-        description="TaskMate je moderný správca úloh pre vás a vaše skupiny. Je optimalizovaný tak, aby ste mohli
-ľahko a jednoducho zadávať úlohy všetkým vašim spolupracovníkom a tak plnili ich zoznam úloh."
+        description="TaskMate je moderný správca úloh pre vás a vaše skupiny. Cieľ bol navrhnúť a vytvoriť systém,
+        aby používatelia mohli ľahko a jednoducho zadávať prácu všetkým svojim spolupracovníkom a tak plnili ich zoznamy úloh."
         visit="Navštíviť TaskMate"
         btnclass="btn-taskmate"
         link="https://taskmate.eu/"
@@ -29,7 +31,8 @@
 
     <ProjectComponent
         title="Komisia pre mládež Bratislavskej arcidiecézy"
-        description=""
+        description="WordPress stránka pre KMBA bola našou jasnou voľbou. Je charakteristická ľahkosťou použitia aj pre
+        technicky menej zdatných použivateľov. Jej ďalšími výhodami sú aj vstavaný blog a téma, ktorú sme sami vyvinuli."
         btnclass="btn-kmba"
         gradient="logo-kmba-div"
         logo="kmba.png"
@@ -40,7 +43,9 @@
 
     <ProjectComponent
         title="Cakes with love"
-        description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
+        description="Naším cieľom pri tomto projekte bolo urobiť ľahkú a jednoduchú pre Cakes with love, aby bola
+        prehľadná a zároveň lightweight. Jedná sa len o prezentačnú stránku pomocou Bootstrapu, vďaka čomu je
+        responzívna a rozbehnuteľná prakticky kdekoľvek."
         visit="Navštíviť Cakes with love"
         btnclass="btn-torty"
         link="https://cakeswithlove.eu/"
@@ -53,13 +58,14 @@
 
     <ProjectComponent
         title="HostNow"
-        description="HostNow je moderný webhosting, ktorý ponúka svoje služby celkom zadarmo. Cieľom HostNow je byť voľbou číslo 1
-pre všetkých web developerov, ktorí hľadajú platformu na testovanie svojich malých projektov, avšak tiež aj pre už zabehnuté portály."
+        description="HostNow poskytuje kvalitné webhostingové služby pre mladých developerov úplne zadarmo.
+        Pri tomto projekte bolo nutné vytvoriť mnoho webových stránok, vrátane blogu, hlavnej stránky a najmä
+        administrácie pre zákazníkov. Projekt bol ocenený v súťaži JuniorInternet 2020 druhým miestom v kategorií JuniorWEB."
         visit="Navštíviť HostNow"
         btnclass="btn-hostnow"
         gradient="logo-hostnow-div"
         logo="hostnow.png"
-        :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge']]"
+        :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge'], ['Ocenené', 'badge-red']]"
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel'], ['fab', 'js'], ['fab', 'java']]"
         :images="[]"
         link="https://hostnow.cz/">
