@@ -24,7 +24,6 @@ icons.forEach(icon => {
 
 Vue.component('fontawesome', FontAwesomeIcon)
 
-
 new Vue({
   render: h => h(App),
 }).$mount('#app')
