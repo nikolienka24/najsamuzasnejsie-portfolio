@@ -8,7 +8,7 @@
         visit="Navštíviť Hyperbolu"
         btnclass="btn-hyperbola"
         gradient="logo-hyperbola-div"
-        logo="../assets/img/hyperbola.png"
+        logo="hyperbola.png"
         :badges="[['Naplno bezi', 'badge-blue']]"
         :icons="[['fab', 'vuejs'], ['fab', 'laravel'], ['fab', 'bootstrap']]">
     </ProjectComponent>
@@ -19,7 +19,7 @@
         visit="Navštíviť Taskmate"
         btnclass="btn-taskmate"
         gradient="logo-taskmate-div"
-        logo="../assets/img/taskmate.png"
+        logo="taskmate.png"
         :badges="[['Naplno bezi', 'badge-blue']]"
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel']]">
     </ProjectComponent>
@@ -30,7 +30,7 @@
         visit="Navštíviť KMBA"
         btnclass="btn-kmba"
         gradient="logo-kmba-div"
-        logo="../assets/img/kmba.png"
+        logo="kmba.png"
         :badges="[['Caaau', '']]"
         :icons="[['fab', 'wordpress-simple'], ['fab', 'php']]">
     </ProjectComponent>
