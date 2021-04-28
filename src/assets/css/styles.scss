@@ -8,6 +8,10 @@
   @apply cursor-not-allowed opacity-50;
 }
 
+.btn:hover{
+  cursor: pointer;
+}
+
 .btn-hyperbola {
   background-color: #4ec4e7;
   color: white;
