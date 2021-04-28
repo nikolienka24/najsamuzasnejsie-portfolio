@@ -14,7 +14,8 @@
           <fontawesome :icon="[icon[0], icon[1]]" v-bind:key="icons.indexOf(icon)" v-for="icon in icons" class="project-icon"/>
           <i-icon v-for="ico in images" :key="images.indexOf(ico)" :src="ico[0]" :alt="ico[1]"/>
         </div>
-        <a :class="'btn ' + btnclass">{{ visit }}</a>
+        <a :class="'btn ' + btnclass" :href="link" target="_blank" v-if="link !== undefined && link !== null && link !== ''">{{ visit }}</a>
+        <button :class="'btn ' + btnclass" v-else-if="visit !== null && visit !== undefined && visit !== ''" disabled>{{ visit }}</button>
       </div>
     </div>
   </div>

@@ -6,6 +6,7 @@
         title="Hyperbola"
         description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
         visit="Navštíviť Hyperbolu"
+        link="https://hyperbola.sk/"
         btnclass="btn-hyperbola"
         gradient="logo-hyperbola-div"
         logo="hyperbola.png"
@@ -18,6 +19,7 @@
         description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
         visit="Navštíviť TaskMate"
         btnclass="btn-taskmate"
+        link="https://taskmate.eu/"
         gradient="logo-taskmate-div"
         logo="taskmate.png"
         :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge']]"
@@ -27,7 +29,6 @@
     <ProjectComponent
         title="Komisia pre mládež Bratislavskej arcidiecézy"
         description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
-        visit="Navštíviť KMBA"
         btnclass="btn-kmba"
         gradient="logo-kmba-div"
         logo="kmba.png"
@@ -41,6 +42,7 @@
         description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
         visit="Navštíviť Cakes with love"
         btnclass="btn-torty"
+        link="https://cakeswithlove.eu/"
         gradient="logo-fotka"
         logo=""
         :badges="[['Aktívne', 'badge-blue'], ['Prerábame', 'badge-yellow'], ['2020', 'badge']]"
@@ -57,7 +59,8 @@
         logo="hostnow.png"
         :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge']]"
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel'], ['fab', 'js'], ['fab', 'java']]"
-        :images="[]">
+        :images="[]"
+        link="https://hostnow.cz/">
     </ProjectComponent>
 
   </div>
