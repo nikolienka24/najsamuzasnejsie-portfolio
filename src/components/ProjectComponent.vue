@@ -1,10 +1,10 @@
 <template>
   <div class="project-wrapper rounded-lg">
     <div class="project grid grid-cols-3 shadow-xl rounded-lg">
-      <div :class="'col-span-1 project-logo rounded-l-lg ' + gradient">
+      <div :class="'col-span-3 md:col-span-1 project-logo rounded-t-lg md:rounded-none md:rounded-l-lg ' + gradient">
         <img v-if="logo !== ''" :src="require(`@/assets/img/${logo}`)" alt="Logo" class="logo">
       </div>
-      <div class="col-span-2 bg-white text-left p-5 rounded-lg">
+      <div class="col-span-3 md:col-span-2 bg-white text-left p-5 rounded-lg">
         <p class="project-title">{{ title }}</p>
         <span :class="'badge ' + badge[1]" v-bind:key="badges.indexOf(badge)" v-for="badge in badges">{{ badge[0] }}</span>
         <p class="project-description">
@@ -54,7 +54,7 @@ export default {
 }
 
 .project .logo {
-  @apply h-auto w-40;
+  @apply h-36 w-auto;
   @apply p-3;
 }
 
@@ -85,6 +85,7 @@ export default {
   background-position: center;
   height: 100%;
   width: auto;
+  @apply py-36;
 }
 
 .project .logo-hostnow-div {

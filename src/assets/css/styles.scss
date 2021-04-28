@@ -57,10 +57,11 @@
 /*badges*/
 
 .badge{
-  @apply py-1.5 px-4 mr-2;
+  @apply py-1.5 px-4 mr-2 my-0.5;
   @apply text-xs text-gray-800 font-semibold;
   @apply rounded bg-gray-200;
   border: rgba(82, 82, 82, 0.7) solid 1px;
+  display: inline-block;
 }
 
 .badge.badge-red{
