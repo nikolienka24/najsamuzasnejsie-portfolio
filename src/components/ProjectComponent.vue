@@ -13,7 +13,7 @@
         <div class="opacity-50 pb-5 text-3xl">
           <fontawesome :icon="[icon[0], icon[1]]" v-bind:key="icons.indexOf(icon)" v-for="icon in icons" class="project-icon"/>
         </div>
-        <button :class="'btn ' + btnclass">{{ visit }}</button>
+        <a :class="'btn ' + btnclass">{{ visit }}</a>
       </div>
     </div>
   </div>
@@ -29,6 +29,7 @@ export default {
     description: String,
     visit: String,
     btnclass: String,
+    link: String,
     icons: Array,
     badges: Array
   }

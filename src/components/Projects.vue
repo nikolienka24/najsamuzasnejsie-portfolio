@@ -9,7 +9,7 @@
         btnclass="btn-hyperbola"
         gradient="logo-hyperbola-div"
         logo="hyperbola.png"
-        :badges="[['Naplno bezi', 'badge-blue']]"
+        :badges="[['Aktívne', 'badge-blue'], ['2021', 'badge']]"
         :icons="[['fab', 'vuejs'], ['fab', 'laravel'], ['fab', 'bootstrap']]">
     </ProjectComponent>
 
@@ -20,7 +20,7 @@
         btnclass="btn-taskmate"
         gradient="logo-taskmate-div"
         logo="taskmate.png"
-        :badges="[['Naplno bezi', 'badge-blue']]"
+        :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge']]"
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel']]">
     </ProjectComponent>
 
@@ -31,7 +31,7 @@
         btnclass="btn-kmba"
         gradient="logo-kmba-div"
         logo="kmba.png"
-        :badges="[['Caaau', '']]"
+        :badges="[['Pripravujeme', 'badge-green'], ['2021', 'badge']]"
         :icons="[['fab', 'wordpress-simple'], ['fab', 'php']]">
     </ProjectComponent>
 
@@ -42,7 +42,7 @@
         btnclass="btn-torty"
         gradient="logo-fotka"
         logo=""
-        :badges="[]"
+        :badges="[['Aktívne', 'badge-blue'], ['Prerábame', 'badge-yellow'], ['2020', 'badge']]"
         :icons="[['fab', 'bootstrap']]">
     </ProjectComponent>
 
@@ -52,8 +52,8 @@
         visit="Navštíviť Hostnow"
         btnclass="btn-hostnow"
         gradient="logo-hostnow-div"
-        logo="../assets/img/hostnow.png"
-        :badges="[]"
+        logo="hostnow.png"
+        :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge']]"
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel']]">
     </ProjectComponent>
 
