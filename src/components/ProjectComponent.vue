@@ -12,6 +12,7 @@
         </p>
         <div class="opacity-50 pb-5 text-3xl">
           <fontawesome :icon="[icon[0], icon[1]]" v-bind:key="icons.indexOf(icon)" v-for="icon in icons" class="project-icon"/>
+          <i-icon v-for="ico in images" :key="images.indexOf(ico)" :src="ico[0]" :alt="ico[1]"/>
         </div>
         <a :class="'btn ' + btnclass">{{ visit }}</a>
       </div>
@@ -31,6 +32,7 @@ export default {
     btnclass: String,
     link: String,
     icons: Array,
+    images: Array,
     badges: Array
   }
 }
@@ -38,7 +40,8 @@ export default {
 
 <style scoped>
 .project-icon {
-  @apply mr-3;
+  margin: 0;
+  @apply mr-3 align-top;
 }
 
 .project {

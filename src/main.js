@@ -3,7 +3,8 @@ import App from './App.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faAngleDoubleDown, faChevronDown, faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import { faWordpressSimple, faPhp, faVuejs, faLaravel, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import { faWordpressSimple, faPhp, faVuejs, faLaravel, faBootstrap, faJava, faJs } from '@fortawesome/free-brands-svg-icons'
+import ImageIconComponent from "@/components/ImageIconComponent";
 
 Vue.config.productionTip = false
 
@@ -15,7 +16,9 @@ let icons = [
     faPhp,
     faVuejs,
     faLaravel,
-    faBootstrap
+    faBootstrap,
+    faJava,
+    faJs
 ]
 
 icons.forEach(icon => {
@@ -23,6 +26,7 @@ icons.forEach(icon => {
 });
 
 Vue.component('fontawesome', FontAwesomeIcon)
+Vue.component('i-icon', ImageIconComponent)
 
 new Vue({
   render: h => h(App),

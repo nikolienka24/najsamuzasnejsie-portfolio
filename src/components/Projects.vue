@@ -14,9 +14,9 @@
     </ProjectComponent>
 
     <ProjectComponent
-        title="Taskmate"
+        title="TaskMate"
         description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
-        visit="Navštíviť Taskmate"
+        visit="Navštíviť TaskMate"
         btnclass="btn-taskmate"
         gradient="logo-taskmate-div"
         logo="taskmate.png"
@@ -32,7 +32,8 @@
         gradient="logo-kmba-div"
         logo="kmba.png"
         :badges="[['Pripravujeme', 'badge-green'], ['2021', 'badge']]"
-        :icons="[['fab', 'wordpress-simple'], ['fab', 'php']]">
+        :icons="[['fab', 'wordpress-simple'], ['fab', 'php']]"
+        :images="[['tailwind.png', 'Tailwind']]">>
     </ProjectComponent>
 
     <ProjectComponent
@@ -43,18 +44,20 @@
         gradient="logo-fotka"
         logo=""
         :badges="[['Aktívne', 'badge-blue'], ['Prerábame', 'badge-yellow'], ['2020', 'badge']]"
-        :icons="[['fab', 'bootstrap']]">
+        :icons="[['fab', 'bootstrap']]"
+        :images="[['flask.png', 'Flask']]">
     </ProjectComponent>
 
     <ProjectComponent
-        title="Hostnow"
+        title="HostNow"
         description="Description lorem ipsum dolor sit amet a quick brown fox jumps over the lazy dog"
-        visit="Navštíviť Hostnow"
+        visit="Navštíviť HostNow"
         btnclass="btn-hostnow"
         gradient="logo-hostnow-div"
         logo="hostnow.png"
         :badges="[['Aktívne', 'badge-blue'], ['2020', 'badge']]"
-        :icons="[['fab', 'bootstrap'], ['fab', 'laravel']]">
+        :icons="[['fab', 'bootstrap'], ['fab', 'laravel'], ['fab', 'js'], ['fab', 'java']]"
+        :images="[]">
     </ProjectComponent>
 
   </div>
