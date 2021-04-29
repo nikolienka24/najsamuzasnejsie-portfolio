@@ -29,7 +29,8 @@
         :icons="[['fab', 'bootstrap'], ['fab', 'laravel']]">
     </ProjectComponent>
 
-    <ProjectComponent
+
+    <!--ProjectComponent
         title="Komisia pre mládež Bratislavskej arcidiecézy"
         description="WordPress stránka pre KMBA bola našou jasnou voľbou. Je charakteristická ľahkosťou použitia aj pre
         technicky menej zdatných použivateľov. Jej ďalšími výhodami sú aj vstavaný blog a téma, ktorú sme sami vyvinuli."
@@ -39,7 +40,7 @@
         :badges="[['Pripravujeme', 'badge-green'], ['2021', 'badge']]"
         :icons="[['fab', 'wordpress-simple'], ['fab', 'php']]"
         :images="[['tailwind.png', 'Tailwind']]">>
-    </ProjectComponent>
+    </ProjectComponent-->
 
     <ProjectComponent
         title="Cakes with love"
