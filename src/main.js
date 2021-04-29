@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faAngleDoubleDown, faChevronDown, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { faWordpressSimple, faPhp, faVuejs, faLaravel, faBootstrap, faJava, faJs } from '@fortawesome/free-brands-svg-icons'
 import ImageIconComponent from "@/components/ImageIconComponent";
+import VueScrollmagic from 'vue-scrollmagic'
 
 Vue.config.productionTip = false
 
@@ -27,6 +28,8 @@ icons.forEach(icon => {
 
 Vue.component('fontawesome', FontAwesomeIcon)
 Vue.component('i-icon', ImageIconComponent)
+
+Vue.use(VueScrollmagic)
 
 new Vue({
   render: h => h(App),

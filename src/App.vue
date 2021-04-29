@@ -1,7 +1,11 @@
 <template>
   <div>
-    <div id="intro">
-      <div id="intro-background"></div>
+    <div id="intro" style="z-index: -1;">
+      <section id="background-full">
+        <div class="intro-background main-background"></div>
+        <div class="intro-background sunflowers"></div>
+        <div class="intro-background transparent"></div>
+      </section>
       <div class="text-center z-10">
         <div id="intro-img" class="opacity-0"></div>
         <div>
@@ -14,14 +18,18 @@
         <fontawesome icon="arrow-down"/>
       </a>
     </div>
-    <Projects id="projects"/>
-    <technologies id="technlogoies"/>
-    <contact id="contact"/>
-    <Footer/>
+    <div class="z-10" id="content">
+      <Projects id="projects"/>
+      <technologies id="technlogoies"/>
+      <contact id="contact"/>
+      <Footer/>
+    </div>
   </div>
 </template>
 
 <script>
+//TODO: refactor the code, its so ugly
+
 import '@/assets/css/tailwind.css'
 import Projects from "./components/Projects";
 import Technologies from "@/components/Technologies";
@@ -40,6 +48,49 @@ export default {
   }),
   mounted() {
     this.animateIntro();
+
+    const scene2 = this.$scrollmagic.scene({
+      triggerElement: '#intro',
+      triggerHook: 0,
+      duration: "200%",
+    })
+        .setTween('.main-background', {
+          css: {
+            y: -200,
+            scale: 1.5
+          }
+        })
+
+    const scene4 = this.$scrollmagic.scene({
+      triggerElement: '#intro',
+      triggerHook: 0,
+      duration: "200%",
+    })
+        .setTween('.sunflowers', {
+          css: {
+            y: 200,
+          }
+        })
+
+    const scene3 = this.$scrollmagic.scene({
+      triggerElement: '#intro',
+      triggerHook: 0,
+      duration: "200%",
+    })
+        .setTween('.transparent', {
+          css: {
+            y: 0,
+            x: 100,
+          },
+        })
+
+    // Add Scenes to controller
+    this.$scrollmagic.addScene(scene2)
+    this.$scrollmagic.addScene(scene3)
+    this.$scrollmagic.addScene(scene4)
+
+    // Attaching scrollmagic controller to element
+    this.$scrollmagic.attachTo(this.$refs.scrollBox)
   },
   methods: {
     animateIntro() {
@@ -79,6 +130,10 @@ export default {
 </script>
 
 <style>
+#content {
+  background-color: white;
+}
+
 #intro {
   height: 100vh;
   display: flex;
@@ -86,14 +141,34 @@ export default {
   justify-content: center;
 }
 
-#intro-background {
-  background-image: url("assets/img/intro-bg.jpg");
+#background-full {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.intro-background {
   background-size: cover;
   position: absolute;
+  background-position: center;
   height: 100vh;
   width: 100%;
   filter: brightness(0.5);
 }
+.main-background {
+  background-image: url("assets/background/backgroundsun.jpg");
+}
+.sunflowers {
+  background-position: top;
+  background-image: url("assets/background/sunflowerstransparent.png");
+}
+
+.transparent {
+  background-position: top;
+  background-image: url("assets/background/sunflowers.png");
+}
+
 #intro-img{
   background-image: url("./assets/img/crocodile.jpg");
   background-size: cover;
