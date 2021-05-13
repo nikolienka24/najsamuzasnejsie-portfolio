@@ -65,6 +65,9 @@ export default {
       triggerElement: '#intro',
       triggerHook: 0,
       duration: "200%",
+      css: {
+        y: -200
+      }
     })
         .setTween('.sunflowers', {
           css: {
