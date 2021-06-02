@@ -1,10 +1,11 @@
 <template>
   <div>
     <div id="intro" style="z-index: -1;">
-      <section id="background-full">
-        <div class="intro-background main-background"></div>
+     <section id="background-full">
+       <div class="intro-background background"></div>
+         <!-- <div class="intro-background main-background"></div>
         <div class="intro-background sunflowers"></div>
-        <div class="intro-background transparent"></div>
+        <div class="intro-background transparent"></div>-->
       </section>
       <div class="text-center z-10">
         <div id="intro-img" class="opacity-0"></div>
@@ -218,5 +219,9 @@ export default {
   height: 90vh;
   width: 100%;
   color: white;
+}
+
+.background{
+  background-image: url("./assets/img/intro-bg.jpg");
 }
 </style>

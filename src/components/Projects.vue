@@ -44,8 +44,8 @@
 
     <ProjectComponent
         title="Cakes with love"
-        description="Naším cieľom pri tomto projekte bolo urobiť ľahkú a jednoduchú pre Cakes with love, aby bola
-        prehľadná a zároveň lightweight. Jedná sa len o prezentačnú stránku pomocou Bootstrapu, vďaka čomu je
+        description="Naším cieľom pri tomto projekte bolo urobiť ľahký a jednoduchý web pre Cakes with love, aby bol
+        prehľadný a zároveň lightweight. Jedná sa len o prezentačnú stránku pomocou Bootstrapu, vďaka čomu je
         responzívna a rozbehnuteľná prakticky kdekoľvek."
         visit="Navštíviť Cakes with love"
         btnclass="btn-torty"
