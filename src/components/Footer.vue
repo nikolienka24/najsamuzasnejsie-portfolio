@@ -8,10 +8,10 @@
         <li><a target="_blank" href="https://discord.gg/2pMjt5tcRA">Discord</a></li>
       </ul>
       <p class="mb-3 ">
-        S láskou vyvorili Michal Barnáš a Nikol Poláková
+        S láskou Vyvorili Michal Barnáš a Nikol Poláková
       </p>
       <p class="text-sm">
-        <a href="https://github.com/nikolienka24/najsamuzasnejsie-portfolio">Zdrojový kód tejto stránky nájdete na GitHube</a>
+        <a href="https://github.com/nikolienka24/najsamuzasnejsie-portfolio" class="text-blue-900">Zdrojový kód tejto stránky nájdete na GitHube</a>
       </p>
     </div>
 
@@ -37,11 +37,13 @@ a {
   transition: all 0.3s;
 }
 .links li a {
-  color: inherit;
+  @apply text-blue-900;
   text-decoration: none;
+  transition: .3s;
 }
 .links li:hover {
-  background-color: #dae0e7;
+  /*background-color: #dae0e7;*/
+  text-decoration: underline;
   cursor: pointer;
 }
 </style>
