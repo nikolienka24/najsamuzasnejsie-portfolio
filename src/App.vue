@@ -10,8 +10,8 @@
       <div class="text-center z-10">
         <div id="intro-img" class="opacity-0"></div>
         <div>
-          <p class="text-center text-6xl pt-24 font-bold" id="intro-text">Mišo a Nika</p>
-          <p class="text-center text-2xl text-white pt-3">Weby pečené s láskou ❤️</p>
+          <p class="text-center text-6xl pt-24 font-bold" id="intro-text">Weby pečené s láskou</p>
+          <p class="text-center text-2xl text-white pt-3"></p>
         </div>
       </div>
     </div>
