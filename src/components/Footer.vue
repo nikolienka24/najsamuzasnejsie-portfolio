@@ -8,7 +8,7 @@
         <li><a target="_blank" href="https://discord.gg/2pMjt5tcRA">Discord</a></li>
       </ul>
       <p class="mb-3 ">
-        S láskou Vyvorili Michal Barnáš a Nikol Poláková
+        S láskou vytvorili Michal Barnáš a Nikol Poláková
       </p>
       <p class="text-sm">
         <a href="https://github.com/nikolienka24/najsamuzasnejsie-portfolio" class="text-blue-900">Zdrojový kód tejto stránky nájdete na GitHube</a>
