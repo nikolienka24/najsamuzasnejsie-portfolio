@@ -11,7 +11,7 @@
         <div id="intro-img" class="opacity-0"></div>
         <div>
           <p class="text-center text-6xl pt-24 font-bold" id="intro-text">Mišo a Nika</p>
-          <p class="text-center text-2xl text-white pt-3">Skvely popis ktory vecer vymyslime nech nie sme svadobna stranka😂😂</p>
+          <p class="text-center text-2xl text-white pt-3">Weby pečené s láskou ❤️</p>
         </div>
       </div>
     </div>
