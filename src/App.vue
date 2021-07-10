@@ -93,9 +93,6 @@ export default {
     this.$scrollmagic.addScene(scene2)
     this.$scrollmagic.addScene(scene3)
     this.$scrollmagic.addScene(scene4)
-
-    // Attaching scrollmagic controller to element
-    this.$scrollmagic.attachTo(this.$refs.scrollBox)
   },
   methods: {
     animateIntro() {
